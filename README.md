@@ -2,12 +2,12 @@
 
 Group Name: __Fill your team name__. 
 
-Section: __Fill your class section__. 
+Section: 3
 
 Team Mates:
-1. __Fill name__ and __matric no__
-2. __Fill name__ and __matric no__
-3. __Fill name__ and __matric no__
+1. AMIR AZIM BIN MOHD KAMARUZAMAN 2210591
+2. KHAIRUL ZAKWAN BIN AHMAD 2217035
+3. MOHD IRFAN FIRDAUS BIN MOHD BASRI 2218453
 
 ## Rules
 1. You are allowed to have **3 group** members. *Exception* is allowed **IFF (if and only if)** you are allowed to have 4 group members if you are a **multinational** or a **multigender** group. 
