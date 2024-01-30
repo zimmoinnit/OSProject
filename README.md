@@ -353,7 +353,7 @@ root@f65be1987f84:~# nano helloworld.txt
 
 5. Edit your helloworld.txt, create your messsage and save by typing ctrl-X. Once saved, explore using the container to see where the file is located. Then exit the shell, by typing **exit**.
 
-6. Stop the container and run **docker ps -a**, and restart the container again. Is your file in the container still available?
+6. Stop the container and run **docker ps -a**, and restart the container again. Is your file in the container still available? __Yes__.
 ```bash 
 @joeynor ➜ /workspaces/OSProject (main) $ docker stop romantic_jackson
 
@@ -364,7 +364,7 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 @joeynor ➜ /workspaces/OSProject (main) $ docker restart romantic_jackson
 ```
 
-7. Stop the container and delete the container. What happened to your helloworld.txt?
+7. Stop the container and delete the container. What happened to your helloworld.txt?__The file has been deleted with the container__. 
 
 ```bash 
 @joeynor ➜ /workspaces/OSProject (main) $ docker stop romantic_jackson
@@ -378,8 +378,8 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+1. Are files in the container persistent. Why not?. ***(1 mark)*** __Files in a container are not persistent. Any changes made to the file system during the container's runtime are lost when the container is stopped or removed.__
+2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Yes. we can run multiple instance of debian linux simultaneously. Each container contain its own file system, network and processess. We can use different container names to distinguish each container.__
 
 ## Running your own container with persistent storage
 
