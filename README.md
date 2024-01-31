@@ -24,7 +24,7 @@ Team Mates:
 
 ***Questions:***
 
-1. What is the link of the fork OSProject in your repository. ***(1 mark)*** https://github.com/codespaces?repository_id=750447002
+1. What is the link of the fork OSProject in your repository. ***(1 mark)*** __https://github.com/zimmoinnit/OSProject__
 2. How many files and folders are in this repository. ***(1 mark)*** __1 file and 1 folder__.
 
 
